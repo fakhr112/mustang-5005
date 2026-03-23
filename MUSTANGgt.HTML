@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <style>     
+        @font-face{
+            font-family: 'foom';
+            src:url('Rushblade.ttf');
+        }
+        body{
+            margin:0;
+            height:100vh;
+            background:black;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:#ff2b2b;
+        }
+        .container{
+            font-family: 'foom';
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+            font-size: 75px;
+        }
+        .container>div {
+            align-self: center;
+        }
+        .container>:first-child {
+            display:flex;
+            align-self: center;
+            font-size: 350px;
+        }
+ 
+        .container>:last-child {
+            display:flex;
+            align-self: center;
+            font-size: 350px;
+            position: relative;
+            bottom: -250px;
+
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>23/3/2026</div>
+        <div>F5R </div>
+    </div>
+</body>
